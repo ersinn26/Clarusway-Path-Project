@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: linear-gradient(
+    to right,
+    #ff0000 0%,
+    #fdfff9 99%,
+    #e3eeff 100%
+  );
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+}
+
+.box {
+  clear: both;
+}
+
+.box.box1,
+.box.box2,
+.box.box3,
+.box.box4,
+.box.box5,
+.box.box6,
+.box.box7 {
+  margin: auto;
+  width: 1500px;
+  height: 350px;
+  margin-top: 50px;
+  box-shadow: 3px 3px 3px 3px rgb(27, 16, 16);
+  background-image: linear-gradient(
+    to right,
+    #ff0000 0%,
+    #fdfff9 99%,
+    #e3eeff 100%
+  ); /* margin-bottom: 50px; */
+}
+
+.box.box1:hover,
+.box.box2:hover,
+.box.box3:hover,
+.box.box4:hover,
+.box.box5:hover,
+.box.box6:hover,
+.box.box7:hover {
+  width: 1700px;
+  height: 450px;
+  
+  border: 2px solid rgb(237, 105, 4);
+}
+.box.box7 {
+  border: 2px solid black;
+  margin: auto;
+  width: 1500px;
+  height: 350px;
+  margin-top: 50px;
+  /* padding-bottom: 250px; */
+  /* margin-bottom: 50px; */
+}
+
+img {
+  width: 30%;
+  float: left;
+  margin-right: 40px;
+}
+
+p {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+a {
+  float: right;
+  width: 100px;
+  text-decoration: none;
+  border: 1px solid orange;
+  background-color: rgb(244, 105, 6);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  color: orange;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+a:hover {
+  background-color: red;
+  color: white;
+}
